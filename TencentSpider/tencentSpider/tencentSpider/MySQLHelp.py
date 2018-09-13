@@ -13,7 +13,7 @@ class DBHelper:
     完成所有对mysql数据库的处理
     '''
     
-    def __init__(self,host='127.0.0.1',port=3306,user='testuser',pwd='123456',db='tencent',charset='utf8'):
+    def __init__(self,host='127.0.0.1',port=3306,user='yourusername',pwd='yourpwd',db='tencent',charset='utf8'):
         self.host = host
         self.port = port
         self.user = user
